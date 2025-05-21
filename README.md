@@ -23,4 +23,12 @@ but we should have a rough plan for how links stay working.
 
 * <https://crab.ariel-os.org/>
 
+* <https://ci.ariel-os.org/> is WIP as of 2025-05-21.
+
+  All resources there relate to individual CI runs;
+  those are so numerous and only ephemerally useful
+  that no attempt is made for anything on there to be long-lived.
+  (We might even place notes there that apart from the dashboard at `/`,
+  none of this should be relied on for longer than a few days).
+
 * All `http://` URIs just redirect to `https://`
