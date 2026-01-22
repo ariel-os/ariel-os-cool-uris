@@ -15,11 +15,20 @@ but we should have a rough plan for how links stay working.
 
 ## Active URIs
 
-* <https://ariel-os.org/>, <https://www.ariel-os.org/>
+* <https://ariel-os.org/>
 
-  (on the long run, we may pick the former as the canonical and redirect the other there)
+  Running a website, following a URI style with trailing slashes and thus no technology specific file names.
 
-  redirect to <https://github.com/ariel-os/ariel-os>
+  We care about most paths (initlally, `/`, `/imprint/`, `/blog/` and `/blog/*/`),
+  and plan to issue redirects should we later decide on a different structure.
+
+  We do not care about long-term stability of included resources:
+  `/fonts/`, `/css/`, `/favicons{.*,/}`;
+  in fact, some of those use deliberately ephemeral names to combat cache mismatches.
+
+* <https://www.ariel-os.org/>
+
+  Pure redirect to ariel-os.org for those whose fingers can't let go of that habit.
 
 * <https://crab.ariel-os.org/>
 
