@@ -19,7 +19,7 @@ but we should have a rough plan for how links stay working.
 
   Running a website, following a URI style with trailing slashes and thus no technology specific file names.
 
-  We care about most paths (initlally, `/`, `/imprint/`, `/blog/` and `/blog/*/`),
+  We care about most paths (initially, `/`, `/imprint/`, `/blog/` and `/blog/*/`),
   and plan to issue redirects should we later decide on a different structure.
 
   We do not care about long-term stability of included resources:
